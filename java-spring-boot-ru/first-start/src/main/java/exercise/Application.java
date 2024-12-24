@@ -13,9 +13,9 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    @GetMapping("/")
+    @GetMapping("/about")
     public String home() {
-        return "<h1>Hello, world</h1>\n" + "<b>First spring-boot application</b>\n";
+        return "Welcome to Hexlet!";
     }
 }
 // END
