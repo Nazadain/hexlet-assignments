@@ -14,12 +14,12 @@ public class Application {
     }
 
     @GetMapping("/")
-    public String index() {
+    public String home() {
         return "Hello World";
     }
 
     @GetMapping("/about")
-    public String home() {
+    public String about() {
         return "Welcome to Hexlet!";
     }
 }
